@@ -16,6 +16,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         banner = (CustomBannerView) findViewById(R.id.banner);
-        banner.setValues(imgsID);
+        banner.setValues(imgsID,true);
     }
 }

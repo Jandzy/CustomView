@@ -31,8 +31,6 @@ public class CustomBannerView extends RelativeLayout implements ViewPager.OnPage
     //自动滑动间隔时间
     private long delayMillis = 2000;
 
-    //用于存放原点
-    private List<View> listpoints = new ArrayList<>();
 
     //水平的linearlayout来存放原点显示
     private LinearLayout mLinearLayout;
